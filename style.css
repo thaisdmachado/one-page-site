@@ -20,6 +20,10 @@ body {
     display: flex;
     align-items: center;
 }
+.Flex3 {
+    display: flex;
+    flex-direction: column;
+}
 .Botao {
     text-decoration: none;
     color: #fff;
@@ -115,6 +119,20 @@ main h2 {
     width: 50px;
     height: 50px;
 }
+#onepage {
+    padding: 50px 10px;
+}
+#onepage h2 {
+    margin-bottom: 10px;
+}
+#onepage p {
+    margin-bottom: 25px;
+}
+#video iframe {
+    width: 340px;
+    height: 191px;
+    border: 0;
+}
 /*Smartphone Portait >>>>>>>*/
 
 /*Smartphone Landscape >>>>>>*/
@@ -124,6 +142,10 @@ main h2 {
     }
     main h1, main h2 {
         text-shadow: #000 0.05em 0.05em 0.05em;
+    }
+    #video iframe {
+        width: 560px;
+        height: 315px;
     }
 }
 /*Tablet Portrait >>>>>>*/
@@ -194,5 +216,9 @@ main h2 {
     #destaqueSobre img {
         border-radius: 50%;
         margin-right: 50px;
+    }
+    .Flex3 {
+        flex-direction: row;
+        align-items: center;
     }
 }
